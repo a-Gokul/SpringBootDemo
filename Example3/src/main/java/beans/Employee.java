@@ -4,9 +4,9 @@ package beans;
      public Address address;
      private String name;
 
-    public Employee() {
+    public Employee(String name) {
 
-        System.out.println("def cons");
+        this.name = name;
     }
 
      public String getName() {
