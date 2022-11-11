@@ -13,3 +13,23 @@ import org.springframework.context.annotation.Configuration;
 public class BeanConfig {
 
 }
+```
+
+### Creating Bean with @bean Annotaion in Bean Configuration file.
+
+- Remove @component from PremAddress class
+- Update the Bean config file :
+
+```
+@Configuration
+@ComponentScan(basePackages = "beans")
+public class BeanConfig {
+
+    @Bean
+    public PermAddress perm(){
+       
+       return new PermAddress();
+    }
+}
+
+```
