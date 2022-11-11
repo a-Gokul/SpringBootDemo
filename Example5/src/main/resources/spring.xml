@@ -10,7 +10,7 @@
         <constructor-arg value="Temp"/>
     </bean>
     <bean id="PermAddr" class="beans.PermAddress">
-    <constructor-arg value="Temp"/>
+    <constructor-arg value="Perm"/>
 </bean>
 
 </beans>

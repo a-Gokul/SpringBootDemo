@@ -7,7 +7,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.lang.*;
 
-public class Example5 {
+public class Example6 {
 
     public static void main(String[] args) {
 
