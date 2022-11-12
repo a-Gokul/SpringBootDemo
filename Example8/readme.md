@@ -28,3 +28,9 @@ Follow this link [Click here](https://www.tutorialspoint.com/spring/spring_bean_
 ![img_3.png](img_3.png)
 
 Follow this link [Click here](https://www.tutorialspoint.com/spring/spring_bean_life_cycle.htm#:~:text=The%20init%2Dmethod%20attribute%20specifies,is%20removed%20from%20the%20container.)
+
+# Aspect oriented programming
+
+![img_4.png](img_4.png)
+
+![img_6.png](img_6.png)
