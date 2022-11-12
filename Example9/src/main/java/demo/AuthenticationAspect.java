@@ -9,17 +9,17 @@ import org.springframework.stereotype.Component;
 @Component
 public class AuthenticationAspect {
 
-    @Pointcut("within(demo.ShoppingCart.*)")
+    @Pointcut("within(demo..*)")
     public void authenticatingPointCut(){
         System.out.println("Authenticating........");
     }
 
-    @Pointcut("within(demo.ShoppingCart.*)")
+    @Pointcut("within(demo..*)")
     public void authorizingPointCut(){
         System.out.println("Authorizing........");
     }
 
-    @Before("authenticatingPointCut")
+    @Before("authenticatingPointCut() && authorizingPointCut()")
     public void authenticate(){
         System.out.println("AUthenticating the request");
     }
