@@ -19,3 +19,12 @@ The default scope is always singleton. However, when you need one and only one i
 ```
 
 Follow this link [Click here](https://www.tutorialspoint.com/spring/spring_bean_scopes.htm#)
+
+
+# Bean Lifecycle
+
+![img_1.png](img_1.png)
+
+![img_3.png](img_3.png)
+
+Follow this link [Click here](https://www.tutorialspoint.com/spring/spring_bean_life_cycle.htm#:~:text=The%20init%2Dmethod%20attribute%20specifies,is%20removed%20from%20the%20container.)
